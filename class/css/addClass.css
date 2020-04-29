@@ -1,0 +1,69 @@
+body{
+    background: #fff;
+}
+.login-form{
+    margin-top: 10vh;
+}
+.login-inp{
+    border-radius: 0.05rem;
+    background-color: white;
+    position: relative;
+    border: 1px solid rgba(211, 204, 204, 0.2);
+    color: #AFAFAF;
+    margin: 0.08rem auto 0;
+    width:2.815rem;
+}
+.pwd,.yzm{
+    border-radius:0.05rem;
+}
+.login-inp label{
+    width:4em;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+}
+.login-inp label img{
+    width: 0.13rem;
+    height: 0.18rem;
+    position: relative;
+    top: -0.03rem;
+}
+.login-inp input {
+    height: 0.14rem;
+    line-height: 0.14rem;
+    padding: 0.18rem 0 0.15rem;
+    font-size: 0.14rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0.05rem;
+}
+.login-inp a{
+    display:block;
+    width:100%;
+    text-align:center;
+    line-height:0.5rem;
+    color:#fff;
+    font-size:0.16rem;
+    letter-spacing:0.05rem;
+}
+.login-txt{
+    text-align:center;
+    color:#fff;
+    margin-top: 0.15rem;
+}
+.login-txt a{
+    color:#f9f8f7;
+    padding:0 0.05rem;
+}
+.sureLogin,.register-btn,.forget-btn{
+    border:none;
+    margin-top: 0.15rem;
+}
+.sureLogin a,.register-btn a,.forget-btn a{
+    background-color: #1E9FFF;
+    color: #fff;
+    border-radius:0.05rem;
+    margin: 0.1rem 0;
+    font-size: 0.16rem;
+}

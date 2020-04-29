@@ -1,0 +1,147 @@
+body{
+    background: #fff;
+}
+.login-form{
+    margin-top: 10vh;
+}
+.login-inp{
+    border-radius: 0.05rem;
+    background-color: white;
+    position: relative;
+    border: 1px solid rgba(211, 204, 204, 0.2);
+    color: #AFAFAF;
+    margin: 0.08rem auto 0;
+    width:2.815rem;
+}
+.pwd,.yzm{
+    border-radius:0.05rem;
+}
+.login-inp label{
+    width:4em;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+}
+.userclassify label{
+    width:1em;
+    text-align:center;
+    display:inline-block;
+    color:#fff;
+}
+.userclassify .layui-form-item{
+    margin-bottom: 0;
+    padding: 4px 0;
+}
+.userclassify .layui-input-block{
+    margin-left: 61px;
+    position: relative;
+}
+.userclassify .layui-anim-upbit{
+    width: 284px;
+    position: absolute;
+    left: -62px;
+}
+.login-inp label img{
+    width: 0.13rem;
+    height: 0.18rem;
+    position: relative;
+    top: -0.03rem;
+}
+.login-inp input {
+    height: 0.14rem;
+    line-height: 0.14rem;
+    padding: 0.18rem 0 0.15rem;
+    font-size: 0.14rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0.05rem;
+}
+.login-inp a{
+    display:block;
+    width:100%;
+    text-align:center;
+    line-height:0.5rem;
+    color:#fff;
+    font-size:0.16rem;
+    letter-spacing:0.05rem;
+}
+.login-txt{
+    text-align:center;
+    color:#fff;
+    margin-top: 0.15rem;
+}
+.login-txt a{
+    color:#f9f8f7;
+    padding:0 0.05rem;
+}
+.sureLogin,.register-btn,.forget-btn{
+    border:none;
+    margin-top: 0.15rem;
+}
+.sureLogin a,.register-btn a,.forget-btn a{
+    background-color: #1E9FFF;
+    color: #fff;
+    border-radius:0.05rem;
+    margin: 0.1rem 0;
+    font-size: 0.16rem;
+}
+.yzm{
+    display: none;
+}
+.yzmWarp{
+    position: absolute;
+    right:0.1rem;
+    top:0;display: inline-block;
+    width: 0.8rem;
+    height:calc(100% - 10px);
+    padding-top: 0.15rem;
+    text-align: center;
+}
+.zuzhi{
+    border:1px solid rgba(211, 204, 204, 0.2);
+    width: 2.815rem;
+    margin: 0.08rem auto;
+}
+.register-btn,.forget-btn{
+    display: none;
+}
+.layui-tree{
+    line-height: 49px;
+}
+.layui-icon{
+    color: rgba(211, 204, 204, 0.7)!important;
+    padding-left: 24px!important;
+}
+
+/*tree*/
+.trg{
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid black;;
+    position: absolute;
+    right: 20px;
+    top:20px;
+
+}
+.org-select{
+    cursor: default;
+    z-index: -1;
+    width:100%;
+    line-height: 49px;
+}
+.ztree{
+    background: #fff;
+    width: 96%!important;
+}
+.ztree li span.button.ico_open{
+    background-position: 0 20px;
+}
+.ztree li span.button.ico_close{
+    background-position: 16px 0
+}
+#orgName{
+    padding-left: 24px;
+}

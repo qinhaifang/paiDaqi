@@ -1,0 +1,35 @@
+body{
+    background: #fff;
+}
+.beater{
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
+#userList{
+    border:1px solid #e5e5e5;
+    border-bottom: 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#userList ul.head{
+    height: 40px;
+    line-height: 40px;
+    background: #f2f2f2;
+}
+#userList ul li{
+    float: left;
+    width: 49.7%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+#userList ul li:nth-child(odd){
+    border-right: 1px solid #e5e5e5;
+}
+table span.btn{
+    color:#01AAED;
+    margin-right: 15px;
+}

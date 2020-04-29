@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <title>拍打器</title>
+    <link rel="stylesheet" href="common/weui.min.css">
+    <link rel="stylesheet" href="libs/ext/layui/css/layui.css">
+    <link rel="stylesheet" href="common/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="beater">
+    <button type="button" class="layui-btn layui-btn-normal" id="register">新增</button>
+    <button type="button" class="layui-btn layui-btn-normal" id="editPwd">修改密码</button>
+    <button type="button" class="layui-btn layui-btn-normal" id="loginOut">退出登录</button>
+    <button type="button" class="layui-btn layui-btn-normal"><a href="class/class.html" style="color: #fff">获取班级</a></button>
+    <button type="button" class="layui-btn layui-btn-normal"><a href="grade/grade.html" style="color: #fff">获取年级</a></button>
+    <button type="button" class="layui-btn layui-btn-normal"><a href="testuser/testuser.html" style="color: #fff">测试用户</a></button>
+    <button type="button" class="layui-btn" id="test3"><i class="layui-icon"></i>上传文件</button>
+
+
+    <table class="layui-table" id="table">
+        <!--<colgroup>-->
+            <!--<col width="100">-->
+            <!--<col width="100">-->
+            <!--<col>-->
+        <!--</colgroup>-->
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+    <div id="page"></div>
+    <div class="pageOption">
+        <select>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="40">40</option>
+            <option value="60">60</option>
+            <option value="80">80</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+</div>
+
+<script src="libs/jquery-1.8.0.min.js"></script>
+<script src="libs/xlPaging.js"></script>
+<!--<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js?v=20171027"></script>-->
+<script src="libs/ext/layui/layui.all.js"></script>
+<!--<script src="libs/jweixin-1.0.0.js"></script>-->
+<!--<script sr  c="libs/rem.js"></script>-->
+<script src="libs/public.js"></script>
+<script src="js/index.js"></script>
+<script src="js/api/indexApi.js"></script>
+</body>
+</html>
+<!--18003462255  123321-->
+<!--登录接口，
+修改密码接口,
+删除用户接口,
+新增用户接口,
+请求所有的组织ID，
+角色信息获取,
+查询用户接口，
+高权限用户重置密码接口,
+获取班级列表，
+新增班级，
+删除班级,
+修改班级名称,
+年级操作（增/删/改/查）
+
+
+-->
